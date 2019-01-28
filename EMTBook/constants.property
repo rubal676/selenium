@@ -1,0 +1,86 @@
+
+#BookOneWay Object Property
+
+FL_DETAILS=//div[@id='0']:XPATH
+FARE_DETAILS=//li[@ng-click='BindFairDtail(s.segKey,s.Fare,segID)']:XPATH
+TOT_TAX=//strong[contains(text(),'Total Tax +')]:XPATH
+BAG_INFO=//li[@ng-click='BindBaggageInfoV1(s.segKey,s.Fare,s.segDTL,segID,s.bonds[0])']:XPATH
+CAN_RULES=//li[@ng-click='BindCancellationDtail(s.segKey,s.Fare,segID)']:XPATH
+INITIAL_BOOK=//div[@data-infinite-scroll='loadMoreOutBound()']//div[1]//div[1]//div[1]//div[6]//button[1]:XPATH
+
+INITIAL_BOOK_WITH_MEALS=//div[@data-infinite-scroll='loadMoreOutBound()']//div[3]//div[1]//div[1]//div[6]//button[1]:XPATH
+
+ADD_INSURANCE=//i[@class='fa fa-plus-circle']:XPATH
+YES_NO=//div[@class='insur-no']//span[@class='checkmark-radio']:XPATH
+
+EMAIL_GUEST=//div[@class='con-m']//input[@id='txtEmailId']:XPATH
+
+CONT_BOOKING=//form[@class='ng-dirty ng-valid-required ng-valid ng-valid-email']//span[@class='co'][contains(text(),'Continue Booking')]:XPATH
+
+GENDER=//*[contains(@id,'title')]:XPATH
+
+TITLE_ADULT=//*[contains(@id,'titleAdult')]:XPATH
+FIRST_ADULT=//*[contains(@id,'txtFNAdult')]:XPATH
+LAST_ADULT=//*[contains(@id,'txtLNAdult')]:XPATH
+
+TITLE_CHILD=//*[contains(@id,'titleChild')]:XPATH
+FIRST_CHILD=//*[contains(@id,'txtFNChild')]:XPATH
+LAST_CHILD=//*[contains(@id,'txtLNChild')]:XPATH
+
+TITLE_INFANT=//*[contains(@id,'titleInfant')]:XPATH
+FIRST_INFANT=//*[contains(@id,'txtFNInfant')]:XPATH
+LAST_INFANT=//*[contains(@id,'txtLNInfant')]:XPATH
+
+
+TRA_SCROLL=//span[contains(text(),'Travellers Details')]:XPATH
+
+DOBDAY=//*[contains(@id,'divDOBDayInfant')]:XPATH
+DOBMON=//*[contains(@id,'divDOBMonInfant')]:XPATH
+DOBYEAR=//*[contains(@id,'divDOBYarInfant')]:XPATH
+
+
+MOB_NO=txtCPhone:ID
+GST_BOX=//span[@class='checkmark1a']:XPATH
+FINAL_BOOK=//span[@class='co1']:XPATH
+
+MY_WALLET=//span[@class='my-wlt-txt' and contains(text(),'My Wallet')]:XPATH
+DEBIT_CREDIT=//span[@class='debt-dtl-txt' and contains(text(),'Debit/Credit Card')]:XPATH
+NET_BANKING=//span[@class='net-b-dtl-txt blu' and contains(text(),'Net Banking')]:XPATH
+UPI=//span[@class='upi-txt' and contains(text(),'UPI')]:XPATH
+ENTER_UPI=txtUpi:ID
+PHONE_PE=//span[@class='phonepe-txt' and contains(text(),'PhonePe')]:XPATH
+EMI=//span[@class='emi-txt' and contains(text(),'EMI')]:XPATH
+PAY_PAL=//span[@class='pay_pal' and contains(text(),'Paypal')]:XPATH
+
+
+
+
+#BookRound Object Property
+DEPART_RADIO=DivOut1:ID
+RETURN_RADIO=DivIN2:ID
+BOOK_NOW=//div[@id='BtnBookNow']:XPATH
+
+#BookMultiCity Object Repository
+MBOOK_NOW=//div[@id='ServiceControllerId']//div[8]//div[2]//div[1]//div[2]//div[1]//div[2]//button[1]:XPATH
+
+
+#BookSinglePassenger Object Repository
+S_BOOK=//div[@data-infinite-scroll='loadMoreOutBound()']//div[4]//div[1]//div[1]//div[6]//button[1]:XPATH
+
+BOOK_WITH_MEALS=//div[@data-infinite-scroll='loadMoreOutBound()']//div[5]//div[1]//div[1]//div[6]//button[1]:XPATH
+
+
+ADD_MEALS=//a[@id='defaultOpen']:XPATH
+PLUS_MEAL=//input[@id='Plus000VGML']:XPATH
+ADD_BAG=Add Baggage:LINKTEXT
+ADD_SEAT=Add Seat:LINKTEXT
+SELECT_SEAT=DEL_BLR_1btn:ID
+SEAT_NO=//div[@id='divSeatMap']//a[@id='23B']:XPATH
+CONFIRM_SEATS=//div[@id='divSeatMap']//button[@id='btnHoldSeat']:XPATH
+
+
+
+
+
+
+
